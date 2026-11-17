@@ -14,7 +14,7 @@ namespace Bai6_2_HRMPayrollSystem.DAL
                 {
                     return setting.ConnectionString;
                 }
-                return @"Data Source=.\SQLEXPRESS;Initial Catalog=HRMDB;Integrated Security=True;TrustServerCertificate=True;";
+                return @"Data Source=localhost\QUYEN;Initial Catalog=HRMDB;Integrated Security=True;TrustServerCertificate=True;";
             }
         }
 

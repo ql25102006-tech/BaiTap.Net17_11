@@ -14,7 +14,7 @@ namespace Bai6_1_RetailSalesSystem.DAL
                 {
                     return setting.ConnectionString;
                 }
-                return @"Data Source=.\SQLEXPRESS;Initial Catalog=SalesDB;Integrated Security=True;TrustServerCertificate=True;";
+                return @"Data Source=localhost\QUYEN;Initial Catalog=SalesDB;Integrated Security=True;TrustServerCertificate=True;";
             }
         }
 
